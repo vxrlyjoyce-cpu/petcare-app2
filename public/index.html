@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>PawTrack — Pet Care Journal</title>
+  <meta name="application-name" content="PawTrack">
+  <meta name="description" content="Track your pet’s daily meals, walks, medication, weight, and upcoming care in one personal journal.">
+  <meta property="og:site_name" content="PawTrack"><meta property="og:title" content="PawTrack — Pet Care Journal"><meta property="og:description" content="Track your pet’s daily meals, walks, medication, weight, and upcoming care in one personal journal.">
+  <meta name="theme-color" content="#f7f6fb"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="PawTrack"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/brand.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/img/app-192.png">
+  <link rel="preload" href="/fonts/manrope.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/style.css"><script src="/install.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar"><div class="header-inner">
+    <a class="brand" href="#overview" aria-label="PawTrack overview"><img src="/brand.svg" alt="" width="37" height="37">PawTrack</a>
+    <nav aria-label="Main navigation" id="navigation"></nav>
+    <div class="header-actions"><button class="install-btn" id="install"><svg class="ico"><use href="/icons.svg#download"/></svg><span>Install app</span></button><span class="divider"></span><button class="settings" data-action="settings" aria-label="Journal settings"><svg class="ico"><use href="/icons.svg#settings"/></svg></button></div>
+  </div></header>
+  <main id="main" tabindex="-1"><div id="connection" role="status" hidden></div><div id="content"></div><noscript>Enable JavaScript to use your pet care journal.</noscript></main>
+  <footer><span><img src="/brand.svg" alt="">PawTrack</span><span>A journal for their everyday care.</span></footer>
+  <dialog id="modal"><div id="modal-body"></div></dialog>
+  <dialog id="install-dialog"><div class="modal-top"><div class="modal-icon"><svg class="ico"><use href="/icons.svg#download"/></svg></div><button class="icon-button" id="close-install" aria-label="Close installation instructions">×</button></div><div class="eyebrow">PAWTRACK ON YOUR DEVICE</div><h2>Install PawTrack</h2><div id="install-help"></div><button class="primary full" id="install-done">Got it</button></dialog>
+  <div id="toast" role="status" aria-live="polite"></div><input type="file" accept="application/json,.json" id="backup-file" hidden>
+  <script type="module" src="/app.js"></script>
+</body></html>

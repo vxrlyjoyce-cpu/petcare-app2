@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 265" fill="none"><defs><pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#dbc6ff" opacity=".32"/></pattern><linearGradient id="fade"><stop stop-color="#be98e9"/><stop offset="1" stop-color="#a27edc"/></linearGradient></defs>
+<ellipse cx="410" cy="223" rx="154" ry="159" fill="url(#fade)" transform="rotate(-13 410 223)"/>
+<ellipse cx="414" cy="220" rx="170" ry="174" stroke="#c0a5ec" stroke-width="1.2" opacity=".55" stroke-dasharray="5 6" transform="rotate(12 414 220)"/>
+<path fill="url(#dots)" d="M478 3h168v83H478zM75 195h118v75H75z"/>
+<g stroke="#b69add" stroke-width="2.6" opacity=".45" stroke-linecap="round"><path d="M13 239c50-43 75-68 99-45 24 25-31 65-29 19 2-32 45-51 60-39" stroke-dasharray="5 8"/><path d="M570 277c8-37 40-59 80-60 32 0 30 27 7 31-25 3-11-46 18-73" stroke-dasharray="6 8"/></g>
+<path d="M192 42l5 13 14 4-13 6-4 14-6-13-13-4 13-6z" fill="#e0d0ff"/><path d="M544 112l5 14 15 4-14 6-4 15-6-13-14-5 14-6z" fill="#ffce83"/>
+<g stroke="#dcc7ff" stroke-width="3.3" stroke-linecap="round"><path d="M245 76l-10-9m18 4-2-13m-12 28-13-2"/><path d="M493 50l9-8m-2 18 13-2"/></g>
+<g transform="translate(91 86) rotate(-23)" stroke="#b49ad3" stroke-width="2.5" opacity=".42"><ellipse cx="5" cy="12" rx="4.2" ry="6"/><ellipse cx="16" cy="5" rx="4" ry="6"/><ellipse cx="27" cy="8" rx="4" ry="6"/><ellipse cx="34" cy="19" rx="4" ry="6"/><path d="M9 27c2-4 4-10 9-11 5-1 7 5 11 10 8 11-2 15-8 10-4-2-8 1-11 0-4-2-4-5-1-9z"/></g>
+<g transform="translate(533 183) rotate(19) scale(.88)" stroke="#d7baf6" stroke-width="2.4" opacity=".71"><ellipse cx="5" cy="12" rx="4.2" ry="6"/><ellipse cx="16" cy="5" rx="4" ry="6"/><ellipse cx="27" cy="8" rx="4" ry="6"/><ellipse cx="34" cy="19" rx="4" ry="6"/><path d="M9 27c2-4 4-10 9-11 5-1 7 5 11 10 8 11-2 15-8 10-4-2-8 1-11 0-4-2-4-5-1-9z"/></g>
+<circle cx="183" cy="165" r="3" fill="#e3c4fa"/><circle cx="602" cy="153" r="3" fill="#d6b7f1"/><path d="M228 210l7 2m-4-5-2 8" stroke="#ddc9ee" stroke-width="2.6" stroke-linecap="round"/></svg>
